@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="has-background-light has-navbar-fixed-top" dir="ltr" lang="ru">
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="keywords" content="{{ site.custom.keywords }}" />
+
+	{% seo %}
+
+	<!-- custom: open graph -->
+	<meta property="og:image" content="{{ site.image }}" />
+	<meta name="twitter:image" content="{{ site.image }}" />
+	<!-- / custom: open graph -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css" />
+	<link rel="stylesheet" href="{{ site.custom.cdn.url }}/styles/theme/theme.css" />
+	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
+	<!-- / styles -->
+
+	<!-- favicon -->
+	<link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
+	<!-- / favicon -->
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+<header>
+	<nav class="navbar has-shadow is-fixed-top is-transparent" role="navigation" aria-label="main navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="{{ site.url }}" itemprop="url">
+				<span itemprop="name">{{ site.title }}</span>
+			</a>
+			<a class="navbar-burger burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navMenu" class="navbar-menu">
+			<div class="navbar-end">
+				<a class="navbar-item" href="{{ site.custom.info.url }}/team/" target="_blank" itemprop="url">
+					<span itemprop="name">Команда</span>
+				</a>
+				<a class="navbar-item" href="{{ site.custom.info.url }}/furry/" target="_blank" itemprop="url">
+					<span itemprop="name">Сообщество</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,41 @@
+title: "FurryCraft"
+description: "Сервер MineCraft для FURRY / ФУРРИ."
+lang: "ru_RU"
+logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+
+custom:
+  keywords: "furry, minecraft, фурри, майнкрафт"
+  copyright: "<span class='meta-cr'><i class='fas fa-code'></i> with <i class='fas fa-heart' style='color: #fe6e3a;'></i> by <a title='Web Application Development Company' href='https://metadata.foundation/'><strong>METADATA</strong></a></span>"
+  cdn:
+    url: "https://cdn-storage.github.io"
+  info:
+    url: "https://metainfo.github.io"
+  discord:
+    id: "303327594793795588"
+    url: "https://discord.gg/ShMTyRr"
+
+twitter:
+  username: "furryfdn"
+  card: "summary"
+social:
+  name: "FurryCraft"
+  links:
+    - https://twitter.com/furryfdn
+    - https://vk.com/furryfdn
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
+author:
+  name: "FURRY Foundation"
+  email: "kitsune.solar@gmail.com"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"
